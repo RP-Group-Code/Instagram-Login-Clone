@@ -1,0 +1,310 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.gambar {
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.appsstore {
+    min-width: 120px;
+    min-height: 35px;
+}
+
+.playstore {
+    min-width: 120px;
+    min-height: 35px;
+    margin-left: 10px;
+}
+
+.row {
+    --bs-gutter-x: 2.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row>* {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x)/ 2);
+    padding-left: calc(var(--bs-gutter-x)/ 2);
+    margin-top: var(--bs-gutter-y)
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto
+}
+
+@media (min-width:768px) {
+    .col-md-6 {
+        flex: 0 0 auto;
+        width: 50%
+    }
+}
+
+.text-center {
+    text-align: center!important
+}
+
+.w-100 {
+    width: 100%!important
+}
+
+.btn {
+    pointer-events: none;
+    opacity: .85;
+    line-height: 1.8;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd
+}
+
+.mb-3 {
+    margin-bottom: 1rem!important
+}
+
+.mt-1 {
+    margin-top: .25rem!important
+}
+
+.mt-2 {
+    margin-top: .5rem!important
+}
+
+.mt-3 {
+    margin-top: 1rem!important
+}
+
+.pt-3 {
+    margin-top: 1rem!important
+}
+
+.mt-4 {
+    margin-top: 1.5rem!important
+}
+
+.mt-5 {
+    margin-top: 3rem!important
+}
+
+.mt-auto {
+    margin-top: auto!important
+}
+
+.ms-2 {
+    margin-left: .5rem!important
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: 2rem 2.5rem
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-size: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.gambar-hp {
+    margin-top: -70px;
+    height: 560px;
+    min-width: 300px;
+}
+
+.tulisan0 {
+    font-size: 11px;
+    color: rgb(150, 150, 150);
+    margin-bottom: 8px;
+}
+
+.tulisan1 {
+    font-size: 11px;
+    color: rgb(150, 150, 150);
+    margin-bottom: 15px;
+}
+
+.tulisan {
+    font-size: 12px;
+    color: rgb(150, 150, 150);
+    margin-bottom: 40px;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+    margin-top: -30px;
+}
+
+.col-5 {
+    width: 40%
+}
+
+.px-1 {
+    padding-right: .25rem!important;
+    padding-left: .25rem!important
+}
+
+.px-2 {
+    padding-right: .5rem!important;
+    padding-left: .5rem!important
+}
+
+.px-3 {
+    padding-right: 1rem!important;
+    padding-left: 1rem!important
+}
+
+.px-4 {
+    padding-right: 1.5rem!important;
+    padding-left: 1.5rem!important
+}
+
+.px-5 {
+    padding-right: 3rem!important;
+    padding-left: 3rem!important
+}
+
+.py-0 {
+    padding-top: 0!important;
+    padding-bottom: 0!important
+}
+
+.py-1 {
+    padding-top: .25rem!important;
+    padding-bottom: .25rem!important
+}
+
+.py-2 {
+    padding-top: .5rem!important;
+    padding-bottom: .5rem!important
+}
+
+.py-3 {
+    padding-top: 1rem!important;
+    padding-bottom: 1rem!important
+}
+
+.py-4 {
+    padding-top: 1.5rem!important;
+    padding-bottom: 1.5rem!important
+}
+
+.py-5 {
+    padding-top: 3rem!important;
+    padding-bottom: 3rem!important
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.wrapper {
+    max-width: 750px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: -50px;
+}
+
+.or {
+    padding: 35px 20px;
+    position: relative;
+}
+
+.or:after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background: #adadad;
+    border-radius: 20px;
+    display: block;
+}
+
+.or span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    color: #a3a3a3;
+    padding: 0 10px;
+}
+
+.primaryColor,
+.secondaryColor {
+    padding: 0 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.primaryColor {
+    color: #0d6efd;
+}
+
+.secondaryColor {
+    color: #172f80;
+}
+
+.form-control {
+    height: 40px;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out
+}
+
+@media (max-width: 800px) {
+    .firstContainer {
+        display: none;
+    }
+    .secondContainer {
+        max-width: 350px;
+        margin: 0 auto;
+        width: 90%;
+    }
+}
